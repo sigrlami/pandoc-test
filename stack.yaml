@@ -1,12 +1,11 @@
-resolver: nightly-2018-05-10
+resolver: lts-12.26
 
 packages:
-- location: '.'
-
+- .
 
 compiler: ghcjs-0.2.0.9011009_ghc-8.4.1
 setup-info:
-  ghcjs:
-    source:
-      ghcjs-0.2.0.9011009_ghc-8.4.1:
-          url: /opt/ghcjs.tar.gz
+ ghcjs:
+   source:
+     ghcjs-0.2.0.9011009_ghc-8.4.1:
+         url: /opt/ghcjs.tar.gz

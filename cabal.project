@@ -1,0 +1,9 @@
+with-compiler: /opt/ghcjs/8.4/bin/ghcjs
+compiler: ghcjs
+ 
+source-repository-package
+  type: git
+  location: https://github.com/marcpabst/pandoc.git
+  tag: a13
+
+packages: .
